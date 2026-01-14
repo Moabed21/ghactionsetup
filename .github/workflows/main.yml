@@ -12,3 +12,6 @@ jobs:
     steps:
       - name: print a welcome message
         run: echo "welcome to the family son!"
+
+      - name: Checking out
+        uses: actions/checkout@v6.0.2
